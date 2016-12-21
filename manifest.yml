@@ -1,11 +1,11 @@
+declared-services:
+  my-discovery:
+    label: discovery
+    plan: free
 applications:
-- path: .
-  memory: 512M
-  instances: 1
-  domain: mybluemix.net
-  name: BestBuyDiscovery
-  host: BestBuyDiscovery
-  disk_quota: 1024M
-  services:
-  - Discovery-o8
-  command: npm start
+  - name: BestBuyDiscovery
+    command: npm start
+    path: .
+    memory: 512M
+    services:
+      - Discovery-o8
