@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: BestBuyDiscovery
+  host: BestBuyDiscovery
+  disk_quota: 1024M
+  services:
+  - Discovery-o8
+  command: npm start
