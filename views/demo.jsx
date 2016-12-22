@@ -12,7 +12,7 @@ const QUERIES = [
   { id: 'cognitive_computing', text: 'Reissue Reward Certificate', icon: 'cognitive' },
   { id: 'obama', text: 'Price Match Guarantee', icon: 'education' },
   { id: 'patents', text: 'Holiday Returns', icon: 'gavel' },
-  { id: 'mens_clothing', text: 'Men\'s clothing sales', icon: 'sale' },
+  { id: 'mens_clothing', text: 'Nationwide Brick and Mortar Retailers', icon: 'sale' },
   { id: 'sushi', text: 'Latest trends in the Sushi business', icon: 'sushi' },
 ];
 
